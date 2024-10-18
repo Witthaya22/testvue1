@@ -1,11 +1,6 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
-export default defineNuxtConfig({
-  //...
-  build: {
-    transpile: ['vuetify'],
-  },
 
+export default defineNuxtConfig({
   modules: [
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
@@ -13,7 +8,7 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }))
       })
     },
-    //...
+    '@nuxt/icon',
   ],
 
   vite: {
@@ -36,5 +31,9 @@ export default defineNuxtConfig({
     '~/assets/css/font.css',
     '~/assets/css/style.css',
   ],
+  
   compatibilityDate: '2024-10-15',
+  build: {
+    transpile: ['vuetify'],
+  },
 })
