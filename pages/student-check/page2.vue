@@ -24,7 +24,7 @@
 
         
 
-        <div class="flex flex-col justify-center h-screen space-y-4 my-6 container">
+        <div class="flex flex-col justify-center h-screen space-y-4 my-6 container mx-auto ">
             <div class="relative w-4/5 mx-auto">
                 <input
                     class="btn btn-ghost border-solid border-2 border-emerald-950 w-full rounded-full text-emerald-950 text-start pl-12"
@@ -50,8 +50,8 @@
                 <i class="fas fa-lock absolute left-4 top-1/2 transform -translate-y-1/2 text-emerald-950"></i>
             </div>
             <div class="w-4/5 mx-auto text-gray-400 text-xs"><input type="checkbox" class="mr-2">I agree to the <span class="font-bold">Terms & Privacy</span></input></div>
-            <button class="btn w-4/5 mx-auto block rounded-full color-custom text-white">Login</button>
-            <div class="w-4/5 mx-auto text-xs"><div class="text-start  text-gray-400">Have an account? <span class="font-bold">Sign in</span></div></div>
+            <button class="btn w-4/5 mx-auto block rounded-full color-custom text-white">Sing Up</button>
+            <div class="w-4/5 mx-auto text-xs"><div class="text-start  text-gray-400">Have an account? <a href="/student-check/page1"><span class="font-bold">Sign in</span></a></div></div>
         </div>
     </div>
 </template>

@@ -13,7 +13,7 @@
         </div>
         <i class="fa-solid fa-xmark absolute right-10 top-7 transform -translate-y-1/2  text-3xl"></i>
 
-        <div class="flex flex-col justify-end h-screen my-6 container">
+        <div class="flex flex-col justify-end h-screen my-6 container mx-auto ">
             <div class="text-center my-4 text-emerald-800 text-6xl"><i class="fa-solid fa-lock"></i></div>
             <div class="text-center  text-emerald-800 text-4xl font-extrabold">Forgot</div>
             <div class="text-center  text-emerald-800 text-4xl">Password?</div>
@@ -30,7 +30,7 @@
                 <i class="fa-regular fa-envelope absolute left-4 top-1/2 transform -translate-y-1/2 text-white"></i>
             </div>
             <button class="btn w-4/5 mx-auto block rounded-full color-custom2 text-gray-500 mb-10">Reset Password</button>
-            <div class="w-4/5 mx-auto text-center text-gray-200 text-xl link mb-8">Back to Login</div>
+            <div class="w-4/5 mx-auto text-center text-gray-200 text-xl link mb-8"><a href="/student-check/page1">Back to Login</a></div>
             <div class="w-4/5 mx-auto text-center text-gray-200 text-xl"><i class="fa-solid fa-right-from-bracket"></i></div>
             
         </div>
